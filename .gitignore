@@ -1,5 +1,6 @@
 *.hi
 *.o
 Mastermind
-mm.t
+tMastermind
+Main
 report.html

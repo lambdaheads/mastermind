@@ -2,11 +2,11 @@ all :
 	ghc --make -Wall Mastermind.hs
 
 clean :
-	rm -f Mastermind mm.t *.hi *.o report.html
+	rm -f Mastermind tMastermind *.hi *.o report.html
 
 test :
-	ghc --make -Wall mm.t.hs
-	./mm.t
+	ghc --make -Wall tMastermind.hs
+	./tMastermind
 
 prove :
 # cpan App::Prove
